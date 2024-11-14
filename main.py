@@ -23,3 +23,7 @@ while game_is_on:
     screen.update()
     cars.generate_car()
     cars.move_car()
+
+    for car in cars.all_cars:
+        if car.distance(player) < 25:
+            game_is_on = False

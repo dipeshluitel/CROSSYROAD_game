@@ -10,7 +10,7 @@ class CarManager:
         self.all_cars = []
 
     def generate_car(self):
-        chance = randint(1,6)
+        chance = randint(1, 6)
         if chance == 6:
             new_car = Turtle('square')
             new_car.penup()
