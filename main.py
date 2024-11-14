@@ -1,3 +1,7 @@
+# TODO: DETECT TURTLE COLLIDING WITH CARS
+# TODO: DETECT PLAYER REACHING NEXT SIDE
+# TODO: DISPLAY SCORE BOARD AND ADD LEVEL UP FEATURE
+
 import time
 from turtle import Screen
 from player import Player
