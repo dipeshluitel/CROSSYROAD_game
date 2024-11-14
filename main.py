@@ -1,12 +1,9 @@
-# TODO: DETECT PLAYER REACHING NEXT SIDE
-# TODO: DISPLAY SCORE BOARD AND ADD LEVEL UP FEATURE
-
 import time
 from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
-
+from marker import Mark
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)
@@ -14,6 +11,8 @@ player = Player()
 cars = CarManager()
 screen.listen()
 score = Scoreboard()
+# marks the finish line
+mark_finish_line = Mark()
 
 screen.onkey(player.upward, 'Up')
 
