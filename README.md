@@ -16,7 +16,6 @@ CROSSYROAD is a fun Python game inspired by the popular "Crossy Road" mobile gam
 ## Requirements
 
 - Python 3.x
-- Pygame Library
 
 ## Installation
 
