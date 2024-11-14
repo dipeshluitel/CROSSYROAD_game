@@ -2,6 +2,11 @@
 
 CROSSYROAD is a fun Python game inspired by the popular "Crossy Road" mobile game. The goal is to navigate a character across a busy road filled with obstacles like cars and rivers. The game is developed using Python and the Pygame library, offering a simple yet engaging experience.
 
+## DEMO
+
+![CrossyRoad Gameplay](images/crossyroad.gif)
+
+
 ## Features
 
 - **Endless Gameplay**: The game continues until the player is hit by a car or falls into the river.
