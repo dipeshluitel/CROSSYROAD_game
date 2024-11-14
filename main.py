@@ -1,4 +1,3 @@
-# TODO: DETECT TURTLE COLLIDING WITH CARS
 # TODO: DETECT PLAYER REACHING NEXT SIDE
 # TODO: DISPLAY SCORE BOARD AND ADD LEVEL UP FEATURE
 
@@ -27,3 +26,9 @@ while game_is_on:
     for car in cars.all_cars:
         if car.distance(player) < 25:
             game_is_on = False
+
+    if player.check_finish():
+        player.goto_beginning()
+        cars.level_up()
+
+screen.exitonclick()
